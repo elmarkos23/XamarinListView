@@ -5,27 +5,19 @@
              x:Class="XamarinListView.MainPage"
              Title="ListView Examples">
 
-    <StackLayout>
-        <ListView>
-            <ListView.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>mono</x:String>
-                    <x:String>monodroid</x:String>
-                    <x:String>monotouch</x:String>
-                    <x:String>monorail</x:String>
-                    <x:String>monodevelop</x:String>
-                    <x:String>monotone</x:String>
-                    <x:String>monopoly</x:String>
-                    <x:String>monomodal</x:String>
-                    <x:String>mononucleosis</x:String>
-                </x:Array>
-            </ListView.ItemsSource>
+    <StackLayout Padding="8">
+        <Label Text="Mantener presionado Item ListView:"/>
+        <ListView x:Name="lvDatos">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <ViewCell.ContextActions>
-                            <MenuItem Text="Opcion 1" x:Name="Opcion1" Clicked="Opcion1_Clicked"/>
+                            <MenuItem Icon="icon.png" Text="Opcion 1" x:Name="Opcion1" Clicked="Opcion1_Clicked" CommandParameter="{Binding .}"/>
+                            <MenuItem Icon="icon.png" Text="Opcion 2" x:Name="Opcion2" Clicked="Opcion2_Clicked" IsDestructive="True" CommandParameter="{Binding .}"/>
                         </ViewCell.ContextActions>
+                        <StackLayout Padding="15,0">
+                            <Label Text="{Binding nombre}" />
+                        </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
