@@ -12,8 +12,8 @@
                 <DataTemplate>
                     <ViewCell>
                         <ViewCell.ContextActions>
-                            <MenuItem Icon="icon.png" Text="Opcion 1" x:Name="Opcion1" Clicked="Opcion1_Clicked" CommandParameter="{Binding .}"/>
-                            <MenuItem Icon="icon.png" Text="Opcion 2" x:Name="Opcion2" Clicked="Opcion2_Clicked" IsDestructive="True" CommandParameter="{Binding .}"/>
+                            <MenuItem Text="Opcion 1" x:Name="Opcion1" Clicked="Opcion1_Clicked" CommandParameter="{Binding .}"/>
+                            <MenuItem Text="Opcion 2" x:Name="Opcion2" Clicked="Opcion2_Clicked" IsDestructive="True" CommandParameter="{Binding .}"/>
                         </ViewCell.ContextActions>
                         <StackLayout Padding="15,0">
                             <Label Text="{Binding nombre}" />
