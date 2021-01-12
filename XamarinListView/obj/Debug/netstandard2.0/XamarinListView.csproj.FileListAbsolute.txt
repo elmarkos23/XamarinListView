@@ -1,11 +1,7 @@
-C:\Users\admin\Documents\GitHub\XamarinListView\XamarinListView\XamarinListView\bin\Debug\netstandard2.0\XamarinListView.deps.json
-C:\Users\admin\Documents\GitHub\XamarinListView\XamarinListView\XamarinListView\bin\Debug\netstandard2.0\XamarinListView.dll
-C:\Users\admin\Documents\GitHub\XamarinListView\XamarinListView\XamarinListView\bin\Debug\netstandard2.0\XamarinListView.pdb
 C:\Users\admin\Documents\GitHub\XamarinListView\XamarinListView\XamarinListView\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\admin\Documents\GitHub\XamarinListView\XamarinListView\XamarinListView\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\admin\Documents\GitHub\XamarinListView\XamarinListView\XamarinListView\obj\Debug\netstandard2.0\XamarinListView.csproj.CoreCompileInputs.cache
 C:\Users\admin\Documents\GitHub\XamarinListView\XamarinListView\XamarinListView\obj\Debug\netstandard2.0\XamarinListView.AssemblyInfoInputs.cache
 C:\Users\admin\Documents\GitHub\XamarinListView\XamarinListView\XamarinListView\obj\Debug\netstandard2.0\XamarinListView.AssemblyInfo.cs
-C:\Users\admin\Documents\GitHub\XamarinListView\XamarinListView\XamarinListView\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\admin\Documents\GitHub\XamarinListView\XamarinListView\XamarinListView\obj\Debug\netstandard2.0\XamarinListView.dll
 C:\Users\admin\Documents\GitHub\XamarinListView\XamarinListView\XamarinListView\obj\Debug\netstandard2.0\XamarinListView.pdb

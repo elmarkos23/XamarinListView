@@ -8,6 +8,13 @@
     <StackLayout Padding="8">
         <Label Text="Mantener presionado Item ListView:"/>
         <ListView x:Name="lvDatos">
+            <ListView.HeaderTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Text="The Header Template" FontSize="30" BackgroundColor="Violet" TextColor="White" />
+                    </ViewCell>  
+        </DataTemplate>  
+    </ListView.HeaderTemplate>  
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -21,6 +28,13 @@
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
+            <ListView.FooterTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Text="The Footer Template" FontSize="30" BackgroundColor="Blue" TextColor="White"/>
+                    </ViewCell>  
+        </DataTemplate>  
+    </ListView.FooterTemplate>  
         </ListView>
     </StackLayout>
 
